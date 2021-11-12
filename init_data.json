@@ -1,0 +1,40 @@
+{
+    "active_var": 2,
+    "vehicles": [
+        {
+            "flight_parameters": {
+                "H": 55000,
+                "MV": [17.5],
+                "AV": [ 0, 20, 40, 60, 80, 100, 120, 140, 160, 180]
+            },
+            "vehicle_data": {
+                "area": 3.14159,
+                "vehicle_name": "BLUNT_TEST"
+            }
+        },
+        {
+            "flight_parameters": {
+                "H": 95000,
+                "MV": [27.5],
+                "AV": [-1.745, -1.396, -1.047, -0.698, -0.349, 0, 0.349, 0.698, 1.047, 1.396, 1.745],
+                "rad": true
+            },
+            "vehicle_data": {
+                "area": 11.94,
+                "vehicle_name": "apollo"
+            }
+        },
+		{
+            "flight_parameters": {
+                "H": 50000,
+                "MV": [2.5, 3, 4, 5, 7, 20],
+                "AV": [-10, -8, -4, -2, 0, 2, 4, 6, 7, 8, 9, 10, 15, 20],
+                "rad": false
+            },
+            "vehicle_data": {
+                "area": 91,
+                "vehicle_name": "shuttle_X"
+            }
+        }
+    ]
+}
